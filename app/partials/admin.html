@@ -1,0 +1,24 @@
+<header>
+    <h1>Angular展示平台</h1>
+</header>
+<section>
+    <!--menu begin-->
+    <div class="page-left">
+        <ul class="menu" menu-bar click-class="sub-li" active-class="active">
+            <li handle-menu>
+                <a href="javascript:void(0);">
+                    <span>树 tree</span><span class="glyphicon" ng-class="{'glyphicon-menu-down':!collapsed,'glyphicon-menu-up':collapsed}"></span>
+                </a>
+                <ul class="sub-menu" ng-show="collapsed">
+                    <li class="sub-li" ui-sref="admin.basicTree">基本 basic</li>
+                    <li class="sub-li" ui-sref="admin.drapTree">拖拽 drap</li>
+                    <li class="sub-li" ui-sref="admin.handleTree">事件 event</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--menu end-->
+    <!--content begin-->
+    <div class="page-right" ui-view></div>
+    <!--content end-->
+</section>

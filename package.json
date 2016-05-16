@@ -1,0 +1,22 @@
+{
+  "name": "angular-app",
+  "version": "0.0.1",
+  "description": "angular-app",
+  "dependencies": {
+    "gulp-print": "^1.1.0"
+  },
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-load-plugins": "^0.5.0",
+    "require-dir": "~0.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+
+  }
+}

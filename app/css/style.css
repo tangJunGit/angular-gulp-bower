@@ -1,0 +1,40 @@
+/*base*/
+body{font-family: "微软雅黑", Helvetica, Arial, sans-serif}
+a:focus, a:hover{text-decoration: none;}
+ul{padding:0;list-style-type: none;}
+/*login*/
+.login{position:absolute;top:0;left:0;right:0;bottom:0;text-align:center;background-color:#CACDD2;overflow: hidden;}
+/*.login form{position:absolute;top:0;left:0;right:0;bottom:0;display:table;width:400px;margin:auto;padding:10px 20px 20px;background-color:#eceef1;}*/
+.login h3{margin-top: 10%;font-size: 32px;}
+.login a{margin-top: 2%;}
+
+/*layout*/
+header{   position: fixed;width: 100%;box-shadow: 0px 0px 10px 0px #808080;z-index: 999;}
+header h1{margin: 0;padding:10px 20px;font-size:24px;color:#337ab7;}
+.page-left{position:absolute;top:46px;bottom:0;width:240px;background-color:#337ab7;overflow-y: auto;}
+.page-right{position:absolute;top:46px;bottom:0;left:240px;right:0;padding:10px 20px;overflow-y: auto;}
+
+/*center*/
+.center{height: 100%;text-align: center;font-size: 40px;}
+.center:after{content:"";display:inline-block;height: 100%;vertical-align: middle;text-align: center;}
+.center span{display: inline-block;vertical-align: middle;}
+
+/*menu*/
+.menu{padding-top:10px;}
+.menu>li{position:relative;}
+.menu>li>a,.menu ul.sub-menu>li{display:block;padding:10px 20px;color:#fff;font-size:14px;cursor: pointer;}
+.menu ul.sub-menu>li{padding-left: 40px;}
+.menu>li>a:hover,.menu .sub-menu li:hover,.menu .sub-menu li.active{background-color:#298ce2 ;}
+.menu .glyphicon{position:absolute;top:12px;right:20px;margin-right:5px;font-size:12px}
+
+/*tree*/
+.angular-ui-tree-handle {border: 1px solid #dae2ea;  color: #7c9eb2;  padding: 10px 10px;  background: #f8faff;  }
+.angular-ui-tree-handle:hover {color: #438eb9;  background: #f4f6f7;  border-color: #dce2e8;  }
+.angular-ui-tree-placeholder {background: #f0f9ff;  border: 2px dashed #bed2db;  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;  }
+.tree-node {border: 1px solid #dae2ea;  background: #f8faff;  color: #7c9eb2;  }
+.nodrop {background-color: #f2dede;  }
+.tree-node-content {  margin: 10px;  }
+.tree-handle {  padding: 10px;  background: #428bca;  color: #FFF;  margin-right: 10px;  }
+.angular-ui-tree-handle:hover { }
+.angular-ui-tree-placeholder {  background: #f0f9ff;  border: 2px dashed #bed2db;  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;  }
+
