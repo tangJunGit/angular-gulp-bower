@@ -1,5 +1,7 @@
 # angular-gulp-bower
 
+一个简单的 `angular`项目搭建，想了解gulp其他用法，[点击此处](https://github.com/tangJunGit/gulp)
+
 **1.安装依赖包**
 ```
 $ npm install
