@@ -10,7 +10,7 @@ cd angular-gulp-bower
 # 添加项目所需全局依赖的库
 npm install gulp bower -g
 
-# 添加项目依赖的库
+# 添加项目依赖的其他库
 npm install
 bower install
 
